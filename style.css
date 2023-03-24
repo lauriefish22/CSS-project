@@ -1,0 +1,47 @@
+.card {
+    box-sizing: border-box;
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    border-color: purple;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+    margin-right: 50px;
+    flex: 1 0 200px;
+   
+    
+    
+}
+.snippets {
+    justify-content: center;
+    margin-left: 50px;
+    display: flex;
+
+}
+
+.snippets2 {
+    justify-content: center;
+    margin-left: 50px;
+    display: flex;
+    margin-top: 20px;
+}
+header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+
+    .main-header h1 {
+    color: blue;
+}
+
+.main-header h2 {
+    color: green;
+}
+section {
+    
+    
+}
