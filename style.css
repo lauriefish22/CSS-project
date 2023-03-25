@@ -1,74 +1,85 @@
+* {
+    background-color: darkcyan;
+    color: black;
+}
+
 body {
-    background-color:darkcyan
+    display: block;
+    margin: 10px;
 }
 
-
-
-.card {
-    box-sizing: border-box;
-    height: 400px;
-    width: 400px;
-    border-style: solid;
-    border-color: purple;
-    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    float: left;
-    margin-right: 50px;
-    flex: 1 0 200px;
-    
-    
-   
-   
-    
-    
-}
-.snippets {
-    justify-content: center;
-    margin-left: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    
-
-}
-
-.snippets-2 {
-    justify-content: center;
-    margin-left: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    
-}
-header {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    font-size: 32px;
-    
-}
-
-
-    .main-header h1 {
+    font-size: 45px;
     color: white;
 }
-
-.main-header h2 {
-    color: black;
-}
-
-p {
+ .header p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    line-height: 25%;
-    color: black;
-    
-    
+    text-align: center;
+    font-size: 26px;
+ }
+
+ section {
+    display: block;
+ }
+
+.snippets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+article {
+    display: block;
+}
+.card {
+    border: 3px solid darkgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 350px;
+    margin: 10px 5px 20px 5px;
 }
 
-.title {
-    font-size: 28px;
-   color:darkmagenta;
-    margin-bottom: 60px;
-    
+article h2 {
+    margin: 12px;
+    position: relative;
+    border: 3px solid;
+    text-align: center;
+    bottom: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+article p {
+    bottom: 20px;
+    margin: 12px;
+    position: relative;
+}  
+
+article pre {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 12;
+    user-select: text;
+    background-color: lavender;
+}
+
+pre {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    margin: 1cm 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .column {
+        width: 290px;
+        margin: 10px 20px 20px 20px;
+    }
 }
